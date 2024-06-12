@@ -17,28 +17,28 @@ export default function Sidebar() {
             <Link
                 href={'/register'}
                 className={`hover:cursor-pointer px-4 border-l-2 border-[#ffd1cf]
-                ${currentRoute == '/register' ? 'border-b-2 border-l-[#b60000]' : ''}`}
+                ${currentRoute == '/register' ? 'border-l-2 border-l-[#b60000]' : ''}`}
             >
                 Register User
             </Link>
             <Link
                 href={'/list'}
                 className={`hover:cursor-pointer px-4 border-l-2 border-[#ffd1cf]
-                ${currentRoute == '/calculate' ? 'border-b-2 border-l-[#b60000]' : ''}`}
+                ${currentRoute == '/calculate' ? 'border-l-2 border-l-[#b60000]' : ''}`}
             >
                 Calculate Average User Age
             </Link>
             <Link
                 href={'/list'}
                 className={`hover:cursor-pointer px-4 border-l-2 border-[#ffd1cf]
-                ${currentRoute == '/findUser' ? 'border-b-2 border-l-[#b60000]' : ''}`}
+                ${currentRoute == '/findUser' ? 'border-l-2 border-l-[#b60000]' : ''}`}
             >
                 Find User Info
             </Link>
             <Link
                 href={'/list'}
                 className={`hover:cursor-pointer px-4 border-l-2 border-[#ffd1cf]
-                ${currentRoute == '/editUser' ? 'border-b-2 border-l-[#b60000]' : ''}`}
+                ${currentRoute == '/editUser' ? 'border-l-2 border-l-[#b60000]' : ''}`}
             >
                 Edit User
             </Link>

@@ -25,7 +25,8 @@ export default function ListUsers() {
 
     return (
         <article className='flex flex-col gap-2 py-5 px-10 grow overflow-y-scroll'>
-            Users List:
+            <h1 className='text-2xl mb-5'>Users List:</h1>
+
             {users.map((user) => (
                 <div
                     key={`${user.email}`}
