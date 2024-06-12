@@ -32,7 +32,7 @@ export default function Sidebar() {
             </Link>
 
             <Link
-                href={'/list'}
+                href={'/findUser'}
                 className={`hover:cursor-pointer px-4 border-l-2 border-[#ffd1cf]
                 ${currentRoute == '/findUser' ? 'border-l-2 border-l-[#b60000]' : ''}`}
             >

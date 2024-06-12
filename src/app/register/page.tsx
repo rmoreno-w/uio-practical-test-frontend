@@ -41,7 +41,7 @@ export default function Register() {
             <h1 className='text-2xl mb-5'>New User Info:</h1>
 
             <div className='flex flex-col gap-3 mb-3'>
-                <label className='flex flex-col gap-2 max-w-[75%]' htmlFor='name'>
+                <label className='flex flex-col gap-2 max-w-[75%]'>
                     Name
                     <input
                         className='border-2 bg-transparent border-gray-300 rounded-lg h-12 transition-all duration-300 focus:outline-none focus:ring focus:ring-[#cccccc] focus:ring-offset-2 focus:ring-offset-[#e0e0e0] focus:border-[#cccccc] p-2'
@@ -50,7 +50,7 @@ export default function Register() {
                     />
                 </label>
 
-                <label className='flex flex-col gap-2 max-w-[75%]' htmlFor='name'>
+                <label className='flex flex-col gap-2 max-w-[75%]'>
                     Year of Birth
                     <input
                         className='border-2 bg-transparent border-gray-300 rounded-lg h-12 transition-all duration-300 focus:outline-none focus:ring focus:ring-[#cccccc] focus:ring-offset-2 focus:ring-offset-[#e0e0e0] focus:border-[#cccccc] p-2'
@@ -59,7 +59,7 @@ export default function Register() {
                     />
                 </label>
 
-                <label className='flex flex-col gap-2 max-w-[75%]' htmlFor='name'>
+                <label className='flex flex-col gap-2 max-w-[75%]'>
                     Email
                     <input
                         className='border-2 bg-transparent border-gray-300 rounded-lg h-12 transition-all duration-300 focus:outline-none focus:ring focus:ring-[#cccccc] focus:ring-offset-2 focus:ring-offset-[#e0e0e0] focus:border-[#cccccc] p-2'
@@ -68,7 +68,7 @@ export default function Register() {
                     />
                 </label>
 
-                <label className='flex flex-col gap-2 max-w-[75%]' htmlFor='name'>
+                <label className='flex flex-col gap-2 max-w-[75%]'>
                     Password
                     <input
                         className='border-2 bg-transparent border-gray-300 rounded-lg h-12 transition-all duration-300 focus:outline-none focus:ring focus:ring-[#cccccc] focus:ring-offset-2 focus:ring-offset-[#e0e0e0] focus:border-[#cccccc] p-2'
