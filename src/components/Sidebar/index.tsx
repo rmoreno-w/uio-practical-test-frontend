@@ -14,6 +14,7 @@ export default function Sidebar() {
             >
                 List Users
             </Link>
+
             <Link
                 href={'/register'}
                 className={`hover:cursor-pointer px-4 border-l-2 border-[#ffd1cf]
@@ -21,13 +22,15 @@ export default function Sidebar() {
             >
                 Register User
             </Link>
+
             <Link
-                href={'/list'}
+                href={'/calculate'}
                 className={`hover:cursor-pointer px-4 border-l-2 border-[#ffd1cf]
                 ${currentRoute == '/calculate' ? 'border-l-2 border-l-[#b60000]' : ''}`}
             >
                 Calculate Average User Age
             </Link>
+
             <Link
                 href={'/list'}
                 className={`hover:cursor-pointer px-4 border-l-2 border-[#ffd1cf]
@@ -35,6 +38,7 @@ export default function Sidebar() {
             >
                 Find User Info
             </Link>
+
             <Link
                 href={'/list'}
                 className={`hover:cursor-pointer px-4 border-l-2 border-[#ffd1cf]
