@@ -1,4 +1,5 @@
 import Sidebar from '@/components/Sidebar';
+import ListUsers from './list/page';
 
 export default function Home() {
     return (
@@ -7,9 +8,9 @@ export default function Home() {
                 <p>Universitetet i Oslo</p>
             </header>
 
-            <main className='flex'>
+            <main className='my-20 min-h-full flex h-full grow'>
                 <Sidebar />
-                <article className='flex flex-col max-w-56 gap-2 py-5 px-10'>Main</article>
+                <ListUsers />
             </main>
         </>
     );
