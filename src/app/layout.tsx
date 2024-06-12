@@ -1,6 +1,7 @@
 import Sidebar from '@/components/Sidebar';
 import type { Metadata } from 'next';
 import { Inter, Roboto } from 'next/font/google';
+import Image from 'next/image';
 import './globals.css';
 
 const inter = Inter({ subsets: ['latin'] });
@@ -19,10 +20,13 @@ export default function RootLayout({
     return (
         <html lang='en'>
             <body className={roboto.className}>
-                <header className='border-[#ff6f61] h-32 border border-b-2 flex justify-between px-[120px] items-center rounded-b-3xl sticky top-0 text-black'>
-                    <p>Universitetet i Oslo</p>
+                <header className='border-[#ff6f61] h-32 border border-b-2 flex justify-between px-10 items-center rounded-b-3xl sticky top-0 text-black shrink-0'>
+                    <p className='font-bold text-3xl'>Universitetet i Oslo</p>
+                    <div className='h-28 w-28 overflow-hidden relative'>
+                        <Image src='/uio_logo.png' fill className='object-fill' alt='UiO Logo.' />
+                    </div>
                 </header>
-                <main className='my-20 min-h-full flex h-full grow'>
+                <main className='my-20 flex self-stretch h-full'>
                     <Sidebar />
                     {children}
                 </main>

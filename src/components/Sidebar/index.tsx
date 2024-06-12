@@ -6,11 +6,13 @@ export default function Sidebar() {
     const currentRoute = usePathname();
     console.log(currentRoute);
     return (
-        <aside className='flex flex-col max-w-56 gap-2 py-5 px-10'>
+        <aside className='flex flex-col max-w-56 gap-2 py-5 px-10 border-r border-r-[#ffd1cf]'>
+            <p>Navigate to:</p>
+
             <Link
                 href={'/'}
                 className={`hover:cursor-pointer px-4 border-l-2 border-[#ffd1cf]
-                ${currentRoute == '/' ? 'border-[#b60000]' : ''}`}
+                ${currentRoute == '/' ? 'border-l-2 border-l-[#b60000]' : ''}`}
             >
                 List Users
             </Link>
