@@ -40,7 +40,7 @@ export default function Sidebar() {
             </Link>
 
             <Link
-                href={'/list'}
+                href={'/editUser'}
                 className={`hover:cursor-pointer px-4 border-l-2 border-[#ffd1cf]
                 ${currentRoute == '/editUser' ? 'border-l-2 border-l-[#b60000]' : ''}`}
             >
